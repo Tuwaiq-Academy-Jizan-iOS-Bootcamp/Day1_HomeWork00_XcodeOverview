@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F85E0F1F27141C0900C2191B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E0F1E27141C0900C2191B /* AppDelegate.swift */; };
+		F85E0F2127141C0900C2191B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E0F2027141C0900C2191B /* SceneDelegate.swift */; };
+		F85E0F2327141C0900C2191B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E0F2227141C0900C2191B /* ViewController.swift */; };
+		F85E0F2627141C0900C2191B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85E0F2427141C0900C2191B /* Main.storyboard */; };
+		F85E0F2827141C0B00C2191B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F85E0F2727141C0B00C2191B /* Assets.xcassets */; };
+		F85E0F2B27141C0B00C2191B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F85E0F2927141C0B00C2191B /* LaunchScreen.storyboard */; };
+		F85E0F3627141C0B00C2191B /* Zhoor_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E0F3527141C0B00C2191B /* Zhoor_AppTests.swift */; };
+		F85E0F4027141C0B00C2191B /* Zhoor_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E0F3F27141C0B00C2191B /* Zhoor_AppUITests.swift */; };
+		F85E0F4227141C0B00C2191B /* Zhoor_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85E0F4127141C0B00C2191B /* Zhoor_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F85E0F3227141C0B00C2191B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85E0F1327141C0900C2191B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85E0F1A27141C0900C2191B;
+			remoteInfo = "Zhoor App";
+		};
+		F85E0F3C27141C0B00C2191B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F85E0F1327141C0900C2191B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85E0F1A27141C0900C2191B;
+			remoteInfo = "Zhoor App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F85E0F1B27141C0900C2191B /* Zhoor App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zhoor App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85E0F1E27141C0900C2191B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F85E0F2027141C0900C2191B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F85E0F2227141C0900C2191B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F85E0F2527141C0900C2191B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F85E0F2727141C0B00C2191B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F85E0F2A27141C0B00C2191B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F85E0F2C27141C0B00C2191B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F85E0F3127141C0B00C2191B /* Zhoor AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zhoor AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85E0F3527141C0B00C2191B /* Zhoor_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zhoor_AppTests.swift; sourceTree = "<group>"; };
+		F85E0F3B27141C0B00C2191B /* Zhoor AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zhoor AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F85E0F3F27141C0B00C2191B /* Zhoor_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zhoor_AppUITests.swift; sourceTree = "<group>"; };
+		F85E0F4127141C0B00C2191B /* Zhoor_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zhoor_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F85E0F1827141C0900C2191B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85E0F2E27141C0B00C2191B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85E0F3827141C0B00C2191B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F85E0F1227141C0900C2191B = {
+			isa = PBXGroup;
+			children = (
+				F85E0F1D27141C0900C2191B /* Zhoor App */,
+				F85E0F3427141C0B00C2191B /* Zhoor AppTests */,
+				F85E0F3E27141C0B00C2191B /* Zhoor AppUITests */,
+				F85E0F1C27141C0900C2191B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F85E0F1C27141C0900C2191B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F85E0F1B27141C0900C2191B /* Zhoor App.app */,
+				F85E0F3127141C0B00C2191B /* Zhoor AppTests.xctest */,
+				F85E0F3B27141C0B00C2191B /* Zhoor AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F85E0F1D27141C0900C2191B /* Zhoor App */ = {
+			isa = PBXGroup;
+			children = (
+				F85E0F1E27141C0900C2191B /* AppDelegate.swift */,
+				F85E0F2027141C0900C2191B /* SceneDelegate.swift */,
+				F85E0F2227141C0900C2191B /* ViewController.swift */,
+				F85E0F2427141C0900C2191B /* Main.storyboard */,
+				F85E0F2727141C0B00C2191B /* Assets.xcassets */,
+				F85E0F2927141C0B00C2191B /* LaunchScreen.storyboard */,
+				F85E0F2C27141C0B00C2191B /* Info.plist */,
+			);
+			path = "Zhoor App";
+			sourceTree = "<group>";
+		};
+		F85E0F3427141C0B00C2191B /* Zhoor AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F85E0F3527141C0B00C2191B /* Zhoor_AppTests.swift */,
+			);
+			path = "Zhoor AppTests";
+			sourceTree = "<group>";
+		};
+		F85E0F3E27141C0B00C2191B /* Zhoor AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F85E0F3F27141C0B00C2191B /* Zhoor_AppUITests.swift */,
+				F85E0F4127141C0B00C2191B /* Zhoor_AppUITestsLaunchTests.swift */,
+			);
+			path = "Zhoor AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F85E0F1A27141C0900C2191B /* Zhoor App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85E0F4527141C0B00C2191B /* Build configuration list for PBXNativeTarget "Zhoor App" */;
+			buildPhases = (
+				F85E0F1727141C0900C2191B /* Sources */,
+				F85E0F1827141C0900C2191B /* Frameworks */,
+				F85E0F1927141C0900C2191B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zhoor App";
+			productName = "Zhoor App";
+			productReference = F85E0F1B27141C0900C2191B /* Zhoor App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F85E0F3027141C0B00C2191B /* Zhoor AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85E0F4827141C0B00C2191B /* Build configuration list for PBXNativeTarget "Zhoor AppTests" */;
+			buildPhases = (
+				F85E0F2D27141C0B00C2191B /* Sources */,
+				F85E0F2E27141C0B00C2191B /* Frameworks */,
+				F85E0F2F27141C0B00C2191B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85E0F3327141C0B00C2191B /* PBXTargetDependency */,
+			);
+			name = "Zhoor AppTests";
+			productName = "Zhoor AppTests";
+			productReference = F85E0F3127141C0B00C2191B /* Zhoor AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F85E0F3A27141C0B00C2191B /* Zhoor AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F85E0F4B27141C0B00C2191B /* Build configuration list for PBXNativeTarget "Zhoor AppUITests" */;
+			buildPhases = (
+				F85E0F3727141C0B00C2191B /* Sources */,
+				F85E0F3827141C0B00C2191B /* Frameworks */,
+				F85E0F3927141C0B00C2191B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85E0F3D27141C0B00C2191B /* PBXTargetDependency */,
+			);
+			name = "Zhoor AppUITests";
+			productName = "Zhoor AppUITests";
+			productReference = F85E0F3B27141C0B00C2191B /* Zhoor AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F85E0F1327141C0900C2191B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					F85E0F1A27141C0900C2191B = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F85E0F3027141C0B00C2191B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F85E0F1A27141C0900C2191B;
+					};
+					F85E0F3A27141C0B00C2191B = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F85E0F1A27141C0900C2191B;
+					};
+				};
+			};
+			buildConfigurationList = F85E0F1627141C0900C2191B /* Build configuration list for PBXProject "Zhoor App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F85E0F1227141C0900C2191B;
+			productRefGroup = F85E0F1C27141C0900C2191B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F85E0F1A27141C0900C2191B /* Zhoor App */,
+				F85E0F3027141C0B00C2191B /* Zhoor AppTests */,
+				F85E0F3A27141C0B00C2191B /* Zhoor AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F85E0F1927141C0900C2191B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85E0F2B27141C0B00C2191B /* LaunchScreen.storyboard in Resources */,
+				F85E0F2827141C0B00C2191B /* Assets.xcassets in Resources */,
+				F85E0F2627141C0900C2191B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85E0F2F27141C0B00C2191B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85E0F3927141C0B00C2191B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F85E0F1727141C0900C2191B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85E0F2327141C0900C2191B /* ViewController.swift in Sources */,
+				F85E0F1F27141C0900C2191B /* AppDelegate.swift in Sources */,
+				F85E0F2127141C0900C2191B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85E0F2D27141C0B00C2191B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85E0F3627141C0B00C2191B /* Zhoor_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F85E0F3727141C0B00C2191B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85E0F4027141C0B00C2191B /* Zhoor_AppUITests.swift in Sources */,
+				F85E0F4227141C0B00C2191B /* Zhoor_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F85E0F3327141C0B00C2191B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85E0F1A27141C0900C2191B /* Zhoor App */;
+			targetProxy = F85E0F3227141C0B00C2191B /* PBXContainerItemProxy */;
+		};
+		F85E0F3D27141C0B00C2191B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85E0F1A27141C0900C2191B /* Zhoor App */;
+			targetProxy = F85E0F3C27141C0B00C2191B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F85E0F2427141C0900C2191B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85E0F2527141C0900C2191B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F85E0F2927141C0B00C2191B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F85E0F2A27141C0B00C2191B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F85E0F4327141C0B00C2191B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F85E0F4427141C0B00C2191B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F85E0F4627141C0B00C2191B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zhoor App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhoor.com.Zhoor-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F85E0F4727141C0B00C2191B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Zhoor App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhoor.com.Zhoor-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F85E0F4927141C0B00C2191B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhoor.com.Zhoor-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zhoor App.app/Zhoor App";
+			};
+			name = Debug;
+		};
+		F85E0F4A27141C0B00C2191B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhoor.com.Zhoor-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zhoor App.app/Zhoor App";
+			};
+			name = Release;
+		};
+		F85E0F4C27141C0B00C2191B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhoor.com.Zhoor-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zhoor App";
+			};
+			name = Debug;
+		};
+		F85E0F4D27141C0B00C2191B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Zhoor.com.Zhoor-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zhoor App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F85E0F1627141C0900C2191B /* Build configuration list for PBXProject "Zhoor App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85E0F4327141C0B00C2191B /* Debug */,
+				F85E0F4427141C0B00C2191B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85E0F4527141C0B00C2191B /* Build configuration list for PBXNativeTarget "Zhoor App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85E0F4627141C0B00C2191B /* Debug */,
+				F85E0F4727141C0B00C2191B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85E0F4827141C0B00C2191B /* Build configuration list for PBXNativeTarget "Zhoor AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85E0F4927141C0B00C2191B /* Debug */,
+				F85E0F4A27141C0B00C2191B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F85E0F4B27141C0B00C2191B /* Build configuration list for PBXNativeTarget "Zhoor AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F85E0F4C27141C0B00C2191B /* Debug */,
+				F85E0F4D27141C0B00C2191B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F85E0F1327141C0900C2191B /* Project object */;
+}
