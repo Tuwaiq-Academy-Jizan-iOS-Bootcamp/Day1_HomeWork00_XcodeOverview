@@ -1,13 +1,13 @@
 //
-//  MyAPPUITestsLaunchTests.swift
-//  MyAPPUITests
+//  NewAppUITestsLaunchTests.swift
+//  NewAppUITests
 //
 //  Created by Abdulrahman Gazwani on 05/03/1443 AH.
 //
 
 import XCTest
 
-class MyAPPUITestsLaunchTests: XCTestCase {
+class NewAppUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

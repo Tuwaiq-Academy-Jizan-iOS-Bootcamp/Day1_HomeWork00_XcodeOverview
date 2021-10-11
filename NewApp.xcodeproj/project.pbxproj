@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FB9D1F9F27141C2900397AB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D1F9E27141C2900397AB2 /* AppDelegate.swift */; };
-		FB9D1FA127141C2900397AB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D1FA027141C2900397AB2 /* SceneDelegate.swift */; };
-		FB9D1FA327141C2900397AB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D1FA227141C2900397AB2 /* ViewController.swift */; };
-		FB9D1FA627141C2900397AB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9D1FA427141C2900397AB2 /* Main.storyboard */; };
-		FB9D1FA827141C2A00397AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9D1FA727141C2A00397AB2 /* Assets.xcassets */; };
-		FB9D1FAB27141C2A00397AB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9D1FA927141C2A00397AB2 /* LaunchScreen.storyboard */; };
-		FB9D1FB627141C2A00397AB2 /* MyAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D1FB527141C2A00397AB2 /* MyAPPTests.swift */; };
-		FB9D1FC027141C2A00397AB2 /* MyAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D1FBF27141C2A00397AB2 /* MyAPPUITests.swift */; };
-		FB9D1FC227141C2A00397AB2 /* MyAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D1FC127141C2A00397AB2 /* MyAPPUITestsLaunchTests.swift */; };
+		FB9D1FDB2714597400397AB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D1FDA2714597400397AB2 /* AppDelegate.swift */; };
+		FB9D1FDD2714597400397AB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D1FDC2714597400397AB2 /* SceneDelegate.swift */; };
+		FB9D1FDF2714597400397AB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D1FDE2714597400397AB2 /* ViewController.swift */; };
+		FB9D1FE22714597400397AB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9D1FE02714597400397AB2 /* Main.storyboard */; };
+		FB9D1FE42714597500397AB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9D1FE32714597500397AB2 /* Assets.xcassets */; };
+		FB9D1FE72714597500397AB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9D1FE52714597500397AB2 /* LaunchScreen.storyboard */; };
+		FB9D1FF22714597600397AB2 /* NewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D1FF12714597600397AB2 /* NewAppTests.swift */; };
+		FB9D1FFC2714597600397AB2 /* NewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D1FFB2714597600397AB2 /* NewAppUITests.swift */; };
+		FB9D1FFE2714597600397AB2 /* NewAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9D1FFD2714597600397AB2 /* NewAppUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FB9D1FB227141C2A00397AB2 /* PBXContainerItemProxy */ = {
+		FB9D1FEE2714597600397AB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FB9D1F9327141C2900397AB2 /* Project object */;
+			containerPortal = FB9D1FCF2714597400397AB2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FB9D1F9A27141C2900397AB2;
-			remoteInfo = MyAPP;
+			remoteGlobalIDString = FB9D1FD62714597400397AB2;
+			remoteInfo = NewApp;
 		};
-		FB9D1FBC27141C2A00397AB2 /* PBXContainerItemProxy */ = {
+		FB9D1FF82714597600397AB2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FB9D1F9327141C2900397AB2 /* Project object */;
+			containerPortal = FB9D1FCF2714597400397AB2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FB9D1F9A27141C2900397AB2;
-			remoteInfo = MyAPP;
+			remoteGlobalIDString = FB9D1FD62714597400397AB2;
+			remoteInfo = NewApp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FB9D1F9B27141C2900397AB2 /* MyAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB9D1F9E27141C2900397AB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FB9D1FA027141C2900397AB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB9D1FA227141C2900397AB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB9D1FA527141C2900397AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FB9D1FA727141C2A00397AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FB9D1FAA27141C2A00397AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FB9D1FAC27141C2A00397AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB9D1FB127141C2A00397AB2 /* MyAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB9D1FB527141C2A00397AB2 /* MyAPPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAPPTests.swift; sourceTree = "<group>"; };
-		FB9D1FBB27141C2A00397AB2 /* MyAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB9D1FBF27141C2A00397AB2 /* MyAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAPPUITests.swift; sourceTree = "<group>"; };
-		FB9D1FC127141C2A00397AB2 /* MyAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB9D1FD72714597400397AB2 /* NewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9D1FDA2714597400397AB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB9D1FDC2714597400397AB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB9D1FDE2714597400397AB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB9D1FE12714597400397AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB9D1FE32714597500397AB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB9D1FE62714597500397AB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB9D1FE82714597500397AB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9D1FED2714597600397AB2 /* NewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9D1FF12714597600397AB2 /* NewAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAppTests.swift; sourceTree = "<group>"; };
+		FB9D1FF72714597600397AB2 /* NewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9D1FFB2714597600397AB2 /* NewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAppUITests.swift; sourceTree = "<group>"; };
+		FB9D1FFD2714597600397AB2 /* NewAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FB9D1F9827141C2900397AB2 /* Frameworks */ = {
+		FB9D1FD42714597400397AB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB9D1FAE27141C2A00397AB2 /* Frameworks */ = {
+		FB9D1FEA2714597600397AB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB9D1FB827141C2A00397AB2 /* Frameworks */ = {
+		FB9D1FF42714597600397AB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,137 +76,137 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FB9D1F9227141C2900397AB2 = {
+		FB9D1FCE2714597400397AB2 = {
 			isa = PBXGroup;
 			children = (
-				FB9D1F9D27141C2900397AB2 /* MyAPP */,
-				FB9D1FB427141C2A00397AB2 /* MyAPPTests */,
-				FB9D1FBE27141C2A00397AB2 /* MyAPPUITests */,
-				FB9D1F9C27141C2900397AB2 /* Products */,
+				FB9D1FD92714597400397AB2 /* NewApp */,
+				FB9D1FF02714597600397AB2 /* NewAppTests */,
+				FB9D1FFA2714597600397AB2 /* NewAppUITests */,
+				FB9D1FD82714597400397AB2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FB9D1F9C27141C2900397AB2 /* Products */ = {
+		FB9D1FD82714597400397AB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FB9D1F9B27141C2900397AB2 /* MyAPP.app */,
-				FB9D1FB127141C2A00397AB2 /* MyAPPTests.xctest */,
-				FB9D1FBB27141C2A00397AB2 /* MyAPPUITests.xctest */,
+				FB9D1FD72714597400397AB2 /* NewApp.app */,
+				FB9D1FED2714597600397AB2 /* NewAppTests.xctest */,
+				FB9D1FF72714597600397AB2 /* NewAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FB9D1F9D27141C2900397AB2 /* MyAPP */ = {
+		FB9D1FD92714597400397AB2 /* NewApp */ = {
 			isa = PBXGroup;
 			children = (
-				FB9D1F9E27141C2900397AB2 /* AppDelegate.swift */,
-				FB9D1FA027141C2900397AB2 /* SceneDelegate.swift */,
-				FB9D1FA227141C2900397AB2 /* ViewController.swift */,
-				FB9D1FA427141C2900397AB2 /* Main.storyboard */,
-				FB9D1FA727141C2A00397AB2 /* Assets.xcassets */,
-				FB9D1FA927141C2A00397AB2 /* LaunchScreen.storyboard */,
-				FB9D1FAC27141C2A00397AB2 /* Info.plist */,
+				FB9D1FDA2714597400397AB2 /* AppDelegate.swift */,
+				FB9D1FDC2714597400397AB2 /* SceneDelegate.swift */,
+				FB9D1FDE2714597400397AB2 /* ViewController.swift */,
+				FB9D1FE02714597400397AB2 /* Main.storyboard */,
+				FB9D1FE32714597500397AB2 /* Assets.xcassets */,
+				FB9D1FE52714597500397AB2 /* LaunchScreen.storyboard */,
+				FB9D1FE82714597500397AB2 /* Info.plist */,
 			);
-			path = MyAPP;
+			path = NewApp;
 			sourceTree = "<group>";
 		};
-		FB9D1FB427141C2A00397AB2 /* MyAPPTests */ = {
+		FB9D1FF02714597600397AB2 /* NewAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				FB9D1FB527141C2A00397AB2 /* MyAPPTests.swift */,
+				FB9D1FF12714597600397AB2 /* NewAppTests.swift */,
 			);
-			path = MyAPPTests;
+			path = NewAppTests;
 			sourceTree = "<group>";
 		};
-		FB9D1FBE27141C2A00397AB2 /* MyAPPUITests */ = {
+		FB9D1FFA2714597600397AB2 /* NewAppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FB9D1FBF27141C2A00397AB2 /* MyAPPUITests.swift */,
-				FB9D1FC127141C2A00397AB2 /* MyAPPUITestsLaunchTests.swift */,
+				FB9D1FFB2714597600397AB2 /* NewAppUITests.swift */,
+				FB9D1FFD2714597600397AB2 /* NewAppUITestsLaunchTests.swift */,
 			);
-			path = MyAPPUITests;
+			path = NewAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FB9D1F9A27141C2900397AB2 /* MyAPP */ = {
+		FB9D1FD62714597400397AB2 /* NewApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB9D1FC527141C2A00397AB2 /* Build configuration list for PBXNativeTarget "MyAPP" */;
+			buildConfigurationList = FB9D20012714597600397AB2 /* Build configuration list for PBXNativeTarget "NewApp" */;
 			buildPhases = (
-				FB9D1F9727141C2900397AB2 /* Sources */,
-				FB9D1F9827141C2900397AB2 /* Frameworks */,
-				FB9D1F9927141C2900397AB2 /* Resources */,
+				FB9D1FD32714597400397AB2 /* Sources */,
+				FB9D1FD42714597400397AB2 /* Frameworks */,
+				FB9D1FD52714597400397AB2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MyAPP;
-			productName = MyAPP;
-			productReference = FB9D1F9B27141C2900397AB2 /* MyAPP.app */;
+			name = NewApp;
+			productName = NewApp;
+			productReference = FB9D1FD72714597400397AB2 /* NewApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FB9D1FB027141C2A00397AB2 /* MyAPPTests */ = {
+		FB9D1FEC2714597600397AB2 /* NewAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB9D1FC827141C2A00397AB2 /* Build configuration list for PBXNativeTarget "MyAPPTests" */;
+			buildConfigurationList = FB9D20042714597600397AB2 /* Build configuration list for PBXNativeTarget "NewAppTests" */;
 			buildPhases = (
-				FB9D1FAD27141C2A00397AB2 /* Sources */,
-				FB9D1FAE27141C2A00397AB2 /* Frameworks */,
-				FB9D1FAF27141C2A00397AB2 /* Resources */,
+				FB9D1FE92714597600397AB2 /* Sources */,
+				FB9D1FEA2714597600397AB2 /* Frameworks */,
+				FB9D1FEB2714597600397AB2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FB9D1FB327141C2A00397AB2 /* PBXTargetDependency */,
+				FB9D1FEF2714597600397AB2 /* PBXTargetDependency */,
 			);
-			name = MyAPPTests;
-			productName = MyAPPTests;
-			productReference = FB9D1FB127141C2A00397AB2 /* MyAPPTests.xctest */;
+			name = NewAppTests;
+			productName = NewAppTests;
+			productReference = FB9D1FED2714597600397AB2 /* NewAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FB9D1FBA27141C2A00397AB2 /* MyAPPUITests */ = {
+		FB9D1FF62714597600397AB2 /* NewAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB9D1FCB27141C2A00397AB2 /* Build configuration list for PBXNativeTarget "MyAPPUITests" */;
+			buildConfigurationList = FB9D20072714597600397AB2 /* Build configuration list for PBXNativeTarget "NewAppUITests" */;
 			buildPhases = (
-				FB9D1FB727141C2A00397AB2 /* Sources */,
-				FB9D1FB827141C2A00397AB2 /* Frameworks */,
-				FB9D1FB927141C2A00397AB2 /* Resources */,
+				FB9D1FF32714597600397AB2 /* Sources */,
+				FB9D1FF42714597600397AB2 /* Frameworks */,
+				FB9D1FF52714597600397AB2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FB9D1FBD27141C2A00397AB2 /* PBXTargetDependency */,
+				FB9D1FF92714597600397AB2 /* PBXTargetDependency */,
 			);
-			name = MyAPPUITests;
-			productName = MyAPPUITests;
-			productReference = FB9D1FBB27141C2A00397AB2 /* MyAPPUITests.xctest */;
+			name = NewAppUITests;
+			productName = NewAppUITests;
+			productReference = FB9D1FF72714597600397AB2 /* NewAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FB9D1F9327141C2900397AB2 /* Project object */ = {
+		FB9D1FCF2714597400397AB2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					FB9D1F9A27141C2900397AB2 = {
+					FB9D1FD62714597400397AB2 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					FB9D1FB027141C2A00397AB2 = {
+					FB9D1FEC2714597600397AB2 = {
 						CreatedOnToolsVersion = 13.0;
-						TestTargetID = FB9D1F9A27141C2900397AB2;
+						TestTargetID = FB9D1FD62714597400397AB2;
 					};
-					FB9D1FBA27141C2A00397AB2 = {
+					FB9D1FF62714597600397AB2 = {
 						CreatedOnToolsVersion = 13.0;
-						TestTargetID = FB9D1F9A27141C2900397AB2;
+						TestTargetID = FB9D1FD62714597400397AB2;
 					};
 				};
 			};
-			buildConfigurationList = FB9D1F9627141C2900397AB2 /* Build configuration list for PBXProject "MyAPP" */;
+			buildConfigurationList = FB9D1FD22714597400397AB2 /* Build configuration list for PBXProject "NewApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = FB9D1F9227141C2900397AB2;
-			productRefGroup = FB9D1F9C27141C2900397AB2 /* Products */;
+			mainGroup = FB9D1FCE2714597400397AB2;
+			productRefGroup = FB9D1FD82714597400397AB2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FB9D1F9A27141C2900397AB2 /* MyAPP */,
-				FB9D1FB027141C2A00397AB2 /* MyAPPTests */,
-				FB9D1FBA27141C2A00397AB2 /* MyAPPUITests */,
+				FB9D1FD62714597400397AB2 /* NewApp */,
+				FB9D1FEC2714597600397AB2 /* NewAppTests */,
+				FB9D1FF62714597600397AB2 /* NewAppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FB9D1F9927141C2900397AB2 /* Resources */ = {
+		FB9D1FD52714597400397AB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB9D1FAB27141C2A00397AB2 /* LaunchScreen.storyboard in Resources */,
-				FB9D1FA827141C2A00397AB2 /* Assets.xcassets in Resources */,
-				FB9D1FA627141C2900397AB2 /* Main.storyboard in Resources */,
+				FB9D1FE72714597500397AB2 /* LaunchScreen.storyboard in Resources */,
+				FB9D1FE42714597500397AB2 /* Assets.xcassets in Resources */,
+				FB9D1FE22714597400397AB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB9D1FAF27141C2A00397AB2 /* Resources */ = {
+		FB9D1FEB2714597600397AB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB9D1FB927141C2A00397AB2 /* Resources */ = {
+		FB9D1FF52714597600397AB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FB9D1F9727141C2900397AB2 /* Sources */ = {
+		FB9D1FD32714597400397AB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB9D1FA327141C2900397AB2 /* ViewController.swift in Sources */,
-				FB9D1F9F27141C2900397AB2 /* AppDelegate.swift in Sources */,
-				FB9D1FA127141C2900397AB2 /* SceneDelegate.swift in Sources */,
+				FB9D1FDF2714597400397AB2 /* ViewController.swift in Sources */,
+				FB9D1FDB2714597400397AB2 /* AppDelegate.swift in Sources */,
+				FB9D1FDD2714597400397AB2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB9D1FAD27141C2A00397AB2 /* Sources */ = {
+		FB9D1FE92714597600397AB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB9D1FB627141C2A00397AB2 /* MyAPPTests.swift in Sources */,
+				FB9D1FF22714597600397AB2 /* NewAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FB9D1FB727141C2A00397AB2 /* Sources */ = {
+		FB9D1FF32714597600397AB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB9D1FC227141C2A00397AB2 /* MyAPPUITestsLaunchTests.swift in Sources */,
-				FB9D1FC027141C2A00397AB2 /* MyAPPUITests.swift in Sources */,
+				FB9D1FFC2714597600397AB2 /* NewAppUITests.swift in Sources */,
+				FB9D1FFE2714597600397AB2 /* NewAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FB9D1FB327141C2A00397AB2 /* PBXTargetDependency */ = {
+		FB9D1FEF2714597600397AB2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FB9D1F9A27141C2900397AB2 /* MyAPP */;
-			targetProxy = FB9D1FB227141C2A00397AB2 /* PBXContainerItemProxy */;
+			target = FB9D1FD62714597400397AB2 /* NewApp */;
+			targetProxy = FB9D1FEE2714597600397AB2 /* PBXContainerItemProxy */;
 		};
-		FB9D1FBD27141C2A00397AB2 /* PBXTargetDependency */ = {
+		FB9D1FF92714597600397AB2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FB9D1F9A27141C2900397AB2 /* MyAPP */;
-			targetProxy = FB9D1FBC27141C2A00397AB2 /* PBXContainerItemProxy */;
+			target = FB9D1FD62714597400397AB2 /* NewApp */;
+			targetProxy = FB9D1FF82714597600397AB2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FB9D1FA427141C2900397AB2 /* Main.storyboard */ = {
+		FB9D1FE02714597400397AB2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FB9D1FA527141C2900397AB2 /* Base */,
+				FB9D1FE12714597400397AB2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FB9D1FA927141C2A00397AB2 /* LaunchScreen.storyboard */ = {
+		FB9D1FE52714597500397AB2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FB9D1FAA27141C2A00397AB2 /* Base */,
+				FB9D1FE62714597500397AB2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FB9D1FC327141C2A00397AB2 /* Debug */ = {
+		FB9D1FFF2714597600397AB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		FB9D1FC427141C2A00397AB2 /* Release */ = {
+		FB9D20002714597600397AB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,7 +432,7 @@
 			};
 			name = Release;
 		};
-		FB9D1FC627141C2A00397AB2 /* Debug */ = {
+		FB9D20022714597600397AB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -440,7 +440,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyAPP/Info.plist;
+				INFOPLIST_FILE = NewApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -451,7 +451,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyAPP;
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.NewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -459,7 +459,7 @@
 			};
 			name = Debug;
 		};
-		FB9D1FC727141C2A00397AB2 /* Release */ = {
+		FB9D20032714597600397AB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -467,7 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyAPP/Info.plist;
+				INFOPLIST_FILE = NewApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -478,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyAPP;
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.NewApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -486,7 +486,7 @@
 			};
 			name = Release;
 		};
-		FB9D1FC927141C2A00397AB2 /* Debug */ = {
+		FB9D20052714597600397AB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -501,16 +501,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyAPPTests;
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.NewAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAPP.app/MyAPP";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewApp.app/NewApp";
 			};
 			name = Debug;
 		};
-		FB9D1FCA27141C2A00397AB2 /* Release */ = {
+		FB9D20062714597600397AB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -525,16 +525,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyAPPTests;
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.NewAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyAPP.app/MyAPP";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewApp.app/NewApp";
 			};
 			name = Release;
 		};
-		FB9D1FCC27141C2A00397AB2 /* Debug */ = {
+		FB9D20082714597600397AB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -547,16 +547,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyAPPUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.NewAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyAPP;
+				TEST_TARGET_NAME = NewApp;
 			};
 			name = Debug;
 		};
-		FB9D1FCD27141C2A00397AB2 /* Release */ = {
+		FB9D20092714597600397AB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -569,55 +569,55 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyAPPUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.NewAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MyAPP;
+				TEST_TARGET_NAME = NewApp;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FB9D1F9627141C2900397AB2 /* Build configuration list for PBXProject "MyAPP" */ = {
+		FB9D1FD22714597400397AB2 /* Build configuration list for PBXProject "NewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB9D1FC327141C2A00397AB2 /* Debug */,
-				FB9D1FC427141C2A00397AB2 /* Release */,
+				FB9D1FFF2714597600397AB2 /* Debug */,
+				FB9D20002714597600397AB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB9D1FC527141C2A00397AB2 /* Build configuration list for PBXNativeTarget "MyAPP" */ = {
+		FB9D20012714597600397AB2 /* Build configuration list for PBXNativeTarget "NewApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB9D1FC627141C2A00397AB2 /* Debug */,
-				FB9D1FC727141C2A00397AB2 /* Release */,
+				FB9D20022714597600397AB2 /* Debug */,
+				FB9D20032714597600397AB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB9D1FC827141C2A00397AB2 /* Build configuration list for PBXNativeTarget "MyAPPTests" */ = {
+		FB9D20042714597600397AB2 /* Build configuration list for PBXNativeTarget "NewAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB9D1FC927141C2A00397AB2 /* Debug */,
-				FB9D1FCA27141C2A00397AB2 /* Release */,
+				FB9D20052714597600397AB2 /* Debug */,
+				FB9D20062714597600397AB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB9D1FCB27141C2A00397AB2 /* Build configuration list for PBXNativeTarget "MyAPPUITests" */ = {
+		FB9D20072714597600397AB2 /* Build configuration list for PBXNativeTarget "NewAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FB9D1FCC27141C2A00397AB2 /* Debug */,
-				FB9D1FCD27141C2A00397AB2 /* Release */,
+				FB9D20082714597600397AB2 /* Debug */,
+				FB9D20092714597600397AB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FB9D1F9327141C2900397AB2 /* Project object */;
+	rootObject = FB9D1FCF2714597400397AB2 /* Project object */;
 }
