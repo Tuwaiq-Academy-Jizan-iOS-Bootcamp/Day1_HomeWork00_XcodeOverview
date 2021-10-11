@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B76D50B2714546F00B93782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B76D50A2714546F00B93782 /* AppDelegate.swift */; };
+		9B76D50D2714546F00B93782 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B76D50C2714546F00B93782 /* SceneDelegate.swift */; };
+		9B76D50F2714546F00B93782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B76D50E2714546F00B93782 /* ViewController.swift */; };
+		9B76D5122714546F00B93782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B76D5102714546F00B93782 /* Main.storyboard */; };
+		9B76D5142714547100B93782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B76D5132714547100B93782 /* Assets.xcassets */; };
+		9B76D5172714547100B93782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B76D5152714547100B93782 /* LaunchScreen.storyboard */; };
+		9B76D5222714547100B93782 /* MyFrisAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B76D5212714547100B93782 /* MyFrisAppTests.swift */; };
+		9B76D52C2714547100B93782 /* MyFrisAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B76D52B2714547100B93782 /* MyFrisAppUITests.swift */; };
+		9B76D52E2714547100B93782 /* MyFrisAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B76D52D2714547100B93782 /* MyFrisAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B76D51E2714547100B93782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B76D4FF2714546F00B93782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B76D5062714546F00B93782;
+			remoteInfo = MyFrisApp;
+		};
+		9B76D5282714547100B93782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B76D4FF2714546F00B93782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B76D5062714546F00B93782;
+			remoteInfo = MyFrisApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B76D5072714546F00B93782 /* MyFrisApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFrisApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B76D50A2714546F00B93782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B76D50C2714546F00B93782 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9B76D50E2714546F00B93782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9B76D5112714546F00B93782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B76D5132714547100B93782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B76D5162714547100B93782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B76D5182714547100B93782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B76D51D2714547100B93782 /* MyFrisAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFrisAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B76D5212714547100B93782 /* MyFrisAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrisAppTests.swift; sourceTree = "<group>"; };
+		9B76D5272714547100B93782 /* MyFrisAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFrisAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B76D52B2714547100B93782 /* MyFrisAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrisAppUITests.swift; sourceTree = "<group>"; };
+		9B76D52D2714547100B93782 /* MyFrisAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrisAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B76D5042714546F00B93782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B76D51A2714547100B93782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B76D5242714547100B93782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B76D4FE2714546F00B93782 = {
+			isa = PBXGroup;
+			children = (
+				9B76D5092714546F00B93782 /* MyFrisApp */,
+				9B76D5202714547100B93782 /* MyFrisAppTests */,
+				9B76D52A2714547100B93782 /* MyFrisAppUITests */,
+				9B76D5082714546F00B93782 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B76D5082714546F00B93782 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B76D5072714546F00B93782 /* MyFrisApp.app */,
+				9B76D51D2714547100B93782 /* MyFrisAppTests.xctest */,
+				9B76D5272714547100B93782 /* MyFrisAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B76D5092714546F00B93782 /* MyFrisApp */ = {
+			isa = PBXGroup;
+			children = (
+				9B76D50A2714546F00B93782 /* AppDelegate.swift */,
+				9B76D50C2714546F00B93782 /* SceneDelegate.swift */,
+				9B76D50E2714546F00B93782 /* ViewController.swift */,
+				9B76D5102714546F00B93782 /* Main.storyboard */,
+				9B76D5132714547100B93782 /* Assets.xcassets */,
+				9B76D5152714547100B93782 /* LaunchScreen.storyboard */,
+				9B76D5182714547100B93782 /* Info.plist */,
+			);
+			path = MyFrisApp;
+			sourceTree = "<group>";
+		};
+		9B76D5202714547100B93782 /* MyFrisAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B76D5212714547100B93782 /* MyFrisAppTests.swift */,
+			);
+			path = MyFrisAppTests;
+			sourceTree = "<group>";
+		};
+		9B76D52A2714547100B93782 /* MyFrisAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B76D52B2714547100B93782 /* MyFrisAppUITests.swift */,
+				9B76D52D2714547100B93782 /* MyFrisAppUITestsLaunchTests.swift */,
+			);
+			path = MyFrisAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B76D5062714546F00B93782 /* MyFrisApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B76D5312714547100B93782 /* Build configuration list for PBXNativeTarget "MyFrisApp" */;
+			buildPhases = (
+				9B76D5032714546F00B93782 /* Sources */,
+				9B76D5042714546F00B93782 /* Frameworks */,
+				9B76D5052714546F00B93782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFrisApp;
+			productName = MyFrisApp;
+			productReference = 9B76D5072714546F00B93782 /* MyFrisApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B76D51C2714547100B93782 /* MyFrisAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B76D5342714547100B93782 /* Build configuration list for PBXNativeTarget "MyFrisAppTests" */;
+			buildPhases = (
+				9B76D5192714547100B93782 /* Sources */,
+				9B76D51A2714547100B93782 /* Frameworks */,
+				9B76D51B2714547100B93782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B76D51F2714547100B93782 /* PBXTargetDependency */,
+			);
+			name = MyFrisAppTests;
+			productName = MyFrisAppTests;
+			productReference = 9B76D51D2714547100B93782 /* MyFrisAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B76D5262714547100B93782 /* MyFrisAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B76D5372714547100B93782 /* Build configuration list for PBXNativeTarget "MyFrisAppUITests" */;
+			buildPhases = (
+				9B76D5232714547100B93782 /* Sources */,
+				9B76D5242714547100B93782 /* Frameworks */,
+				9B76D5252714547100B93782 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B76D5292714547100B93782 /* PBXTargetDependency */,
+			);
+			name = MyFrisAppUITests;
+			productName = MyFrisAppUITests;
+			productReference = 9B76D5272714547100B93782 /* MyFrisAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B76D4FF2714546F00B93782 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					9B76D5062714546F00B93782 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					9B76D51C2714547100B93782 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9B76D5062714546F00B93782;
+					};
+					9B76D5262714547100B93782 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 9B76D5062714546F00B93782;
+					};
+				};
+			};
+			buildConfigurationList = 9B76D5022714546F00B93782 /* Build configuration list for PBXProject "MyFrisApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B76D4FE2714546F00B93782;
+			productRefGroup = 9B76D5082714546F00B93782 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B76D5062714546F00B93782 /* MyFrisApp */,
+				9B76D51C2714547100B93782 /* MyFrisAppTests */,
+				9B76D5262714547100B93782 /* MyFrisAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B76D5052714546F00B93782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B76D5172714547100B93782 /* LaunchScreen.storyboard in Resources */,
+				9B76D5142714547100B93782 /* Assets.xcassets in Resources */,
+				9B76D5122714546F00B93782 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B76D51B2714547100B93782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B76D5252714547100B93782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B76D5032714546F00B93782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B76D50F2714546F00B93782 /* ViewController.swift in Sources */,
+				9B76D50B2714546F00B93782 /* AppDelegate.swift in Sources */,
+				9B76D50D2714546F00B93782 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B76D5192714547100B93782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B76D5222714547100B93782 /* MyFrisAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B76D5232714547100B93782 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B76D52E2714547100B93782 /* MyFrisAppUITestsLaunchTests.swift in Sources */,
+				9B76D52C2714547100B93782 /* MyFrisAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B76D51F2714547100B93782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B76D5062714546F00B93782 /* MyFrisApp */;
+			targetProxy = 9B76D51E2714547100B93782 /* PBXContainerItemProxy */;
+		};
+		9B76D5292714547100B93782 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B76D5062714546F00B93782 /* MyFrisApp */;
+			targetProxy = 9B76D5282714547100B93782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B76D5102714546F00B93782 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B76D5112714546F00B93782 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B76D5152714547100B93782 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B76D5162714547100B93782 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B76D52F2714547100B93782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B76D5302714547100B93782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B76D5322714547100B93782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyFrisApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyFrisApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B76D5332714547100B93782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyFrisApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyFrisApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B76D5352714547100B93782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyFrisAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFrisApp.app/MyFrisApp";
+			};
+			name = Debug;
+		};
+		9B76D5362714547100B93782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyFrisAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFrisApp.app/MyFrisApp";
+			};
+			name = Release;
+		};
+		9B76D5382714547100B93782 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyFrisAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFrisApp;
+			};
+			name = Debug;
+		};
+		9B76D5392714547100B93782 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tuwaiq.ios.MyFrisAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFrisApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B76D5022714546F00B93782 /* Build configuration list for PBXProject "MyFrisApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B76D52F2714547100B93782 /* Debug */,
+				9B76D5302714547100B93782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B76D5312714547100B93782 /* Build configuration list for PBXNativeTarget "MyFrisApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B76D5322714547100B93782 /* Debug */,
+				9B76D5332714547100B93782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B76D5342714547100B93782 /* Build configuration list for PBXNativeTarget "MyFrisAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B76D5352714547100B93782 /* Debug */,
+				9B76D5362714547100B93782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B76D5372714547100B93782 /* Build configuration list for PBXNativeTarget "MyFrisAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B76D5382714547100B93782 /* Debug */,
+				9B76D5392714547100B93782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B76D4FF2714546F00B93782 /* Project object */;
+}
