@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA5D35A027141BF900FD0F06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5D359F27141BF900FD0F06 /* AppDelegate.swift */; };
+		BA5D35A227141BF900FD0F06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5D35A127141BF900FD0F06 /* SceneDelegate.swift */; };
+		BA5D35A427141BF900FD0F06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5D35A327141BF900FD0F06 /* ViewController.swift */; };
+		BA5D35A727141BF900FD0F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5D35A527141BF900FD0F06 /* Main.storyboard */; };
+		BA5D35A927141BFA00FD0F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5D35A827141BFA00FD0F06 /* Assets.xcassets */; };
+		BA5D35AC27141BFA00FD0F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5D35AA27141BFA00FD0F06 /* LaunchScreen.storyboard */; };
+		BA5D35B727141BFA00FD0F06 /* MyFristAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5D35B627141BFA00FD0F06 /* MyFristAppTests.swift */; };
+		BA5D35C127141BFA00FD0F06 /* MyFristAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5D35C027141BFA00FD0F06 /* MyFristAppUITests.swift */; };
+		BA5D35C327141BFA00FD0F06 /* MyFristAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5D35C227141BFA00FD0F06 /* MyFristAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA5D35B327141BFA00FD0F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA5D359427141BF900FD0F06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA5D359B27141BF900FD0F06;
+			remoteInfo = MyFristApp;
+		};
+		BA5D35BD27141BFA00FD0F06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA5D359427141BF900FD0F06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA5D359B27141BF900FD0F06;
+			remoteInfo = MyFristApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA5D359C27141BF900FD0F06 /* MyFristApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFristApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5D359F27141BF900FD0F06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA5D35A127141BF900FD0F06 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA5D35A327141BF900FD0F06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA5D35A627141BF900FD0F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA5D35A827141BFA00FD0F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA5D35AB27141BFA00FD0F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA5D35AD27141BFA00FD0F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5D35B227141BFA00FD0F06 /* MyFristAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFristAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5D35B627141BFA00FD0F06 /* MyFristAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFristAppTests.swift; sourceTree = "<group>"; };
+		BA5D35BC27141BFA00FD0F06 /* MyFristAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFristAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5D35C027141BFA00FD0F06 /* MyFristAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFristAppUITests.swift; sourceTree = "<group>"; };
+		BA5D35C227141BFA00FD0F06 /* MyFristAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFristAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA5D359927141BF900FD0F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5D35AF27141BFA00FD0F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5D35B927141BFA00FD0F06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA5D359327141BF900FD0F06 = {
+			isa = PBXGroup;
+			children = (
+				BA5D359E27141BF900FD0F06 /* MyFristApp */,
+				BA5D35B527141BFA00FD0F06 /* MyFristAppTests */,
+				BA5D35BF27141BFA00FD0F06 /* MyFristAppUITests */,
+				BA5D359D27141BF900FD0F06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA5D359D27141BF900FD0F06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA5D359C27141BF900FD0F06 /* MyFristApp.app */,
+				BA5D35B227141BFA00FD0F06 /* MyFristAppTests.xctest */,
+				BA5D35BC27141BFA00FD0F06 /* MyFristAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA5D359E27141BF900FD0F06 /* MyFristApp */ = {
+			isa = PBXGroup;
+			children = (
+				BA5D359F27141BF900FD0F06 /* AppDelegate.swift */,
+				BA5D35A127141BF900FD0F06 /* SceneDelegate.swift */,
+				BA5D35A327141BF900FD0F06 /* ViewController.swift */,
+				BA5D35A527141BF900FD0F06 /* Main.storyboard */,
+				BA5D35A827141BFA00FD0F06 /* Assets.xcassets */,
+				BA5D35AA27141BFA00FD0F06 /* LaunchScreen.storyboard */,
+				BA5D35AD27141BFA00FD0F06 /* Info.plist */,
+			);
+			path = MyFristApp;
+			sourceTree = "<group>";
+		};
+		BA5D35B527141BFA00FD0F06 /* MyFristAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA5D35B627141BFA00FD0F06 /* MyFristAppTests.swift */,
+			);
+			path = MyFristAppTests;
+			sourceTree = "<group>";
+		};
+		BA5D35BF27141BFA00FD0F06 /* MyFristAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA5D35C027141BFA00FD0F06 /* MyFristAppUITests.swift */,
+				BA5D35C227141BFA00FD0F06 /* MyFristAppUITestsLaunchTests.swift */,
+			);
+			path = MyFristAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA5D359B27141BF900FD0F06 /* MyFristApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5D35C627141BFA00FD0F06 /* Build configuration list for PBXNativeTarget "MyFristApp" */;
+			buildPhases = (
+				BA5D359827141BF900FD0F06 /* Sources */,
+				BA5D359927141BF900FD0F06 /* Frameworks */,
+				BA5D359A27141BF900FD0F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFristApp;
+			productName = MyFristApp;
+			productReference = BA5D359C27141BF900FD0F06 /* MyFristApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA5D35B127141BFA00FD0F06 /* MyFristAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5D35C927141BFA00FD0F06 /* Build configuration list for PBXNativeTarget "MyFristAppTests" */;
+			buildPhases = (
+				BA5D35AE27141BFA00FD0F06 /* Sources */,
+				BA5D35AF27141BFA00FD0F06 /* Frameworks */,
+				BA5D35B027141BFA00FD0F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA5D35B427141BFA00FD0F06 /* PBXTargetDependency */,
+			);
+			name = MyFristAppTests;
+			productName = MyFristAppTests;
+			productReference = BA5D35B227141BFA00FD0F06 /* MyFristAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA5D35BB27141BFA00FD0F06 /* MyFristAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5D35CC27141BFA00FD0F06 /* Build configuration list for PBXNativeTarget "MyFristAppUITests" */;
+			buildPhases = (
+				BA5D35B827141BFA00FD0F06 /* Sources */,
+				BA5D35B927141BFA00FD0F06 /* Frameworks */,
+				BA5D35BA27141BFA00FD0F06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA5D35BE27141BFA00FD0F06 /* PBXTargetDependency */,
+			);
+			name = MyFristAppUITests;
+			productName = MyFristAppUITests;
+			productReference = BA5D35BC27141BFA00FD0F06 /* MyFristAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA5D359427141BF900FD0F06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					BA5D359B27141BF900FD0F06 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					BA5D35B127141BFA00FD0F06 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BA5D359B27141BF900FD0F06;
+					};
+					BA5D35BB27141BFA00FD0F06 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = BA5D359B27141BF900FD0F06;
+					};
+				};
+			};
+			buildConfigurationList = BA5D359727141BF900FD0F06 /* Build configuration list for PBXProject "MyFristApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA5D359327141BF900FD0F06;
+			productRefGroup = BA5D359D27141BF900FD0F06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA5D359B27141BF900FD0F06 /* MyFristApp */,
+				BA5D35B127141BFA00FD0F06 /* MyFristAppTests */,
+				BA5D35BB27141BFA00FD0F06 /* MyFristAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA5D359A27141BF900FD0F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5D35AC27141BFA00FD0F06 /* LaunchScreen.storyboard in Resources */,
+				BA5D35A927141BFA00FD0F06 /* Assets.xcassets in Resources */,
+				BA5D35A727141BF900FD0F06 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5D35B027141BFA00FD0F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5D35BA27141BFA00FD0F06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA5D359827141BF900FD0F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5D35A427141BF900FD0F06 /* ViewController.swift in Sources */,
+				BA5D35A027141BF900FD0F06 /* AppDelegate.swift in Sources */,
+				BA5D35A227141BF900FD0F06 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5D35AE27141BFA00FD0F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5D35B727141BFA00FD0F06 /* MyFristAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5D35B827141BFA00FD0F06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5D35C127141BFA00FD0F06 /* MyFristAppUITests.swift in Sources */,
+				BA5D35C327141BFA00FD0F06 /* MyFristAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA5D35B427141BFA00FD0F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA5D359B27141BF900FD0F06 /* MyFristApp */;
+			targetProxy = BA5D35B327141BFA00FD0F06 /* PBXContainerItemProxy */;
+		};
+		BA5D35BE27141BFA00FD0F06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA5D359B27141BF900FD0F06 /* MyFristApp */;
+			targetProxy = BA5D35BD27141BFA00FD0F06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA5D35A527141BF900FD0F06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5D35A627141BF900FD0F06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA5D35AA27141BFA00FD0F06 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5D35AB27141BFA00FD0F06 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA5D35C427141BFA00FD0F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA5D35C527141BFA00FD0F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA5D35C727141BFA00FD0F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyFristApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Abdulrhman.MyFristApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA5D35C827141BFA00FD0F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyFristApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Abdulrhman.MyFristApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA5D35CA27141BFA00FD0F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Abdulrhman.MyFristAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFristApp.app/MyFristApp";
+			};
+			name = Debug;
+		};
+		BA5D35CB27141BFA00FD0F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Abdulrhman.MyFristAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFristApp.app/MyFristApp";
+			};
+			name = Release;
+		};
+		BA5D35CD27141BFA00FD0F06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Abdulrhman.MyFristAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFristApp;
+			};
+			name = Debug;
+		};
+		BA5D35CE27141BFA00FD0F06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Abdulrhman.MyFristAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFristApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA5D359727141BF900FD0F06 /* Build configuration list for PBXProject "MyFristApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5D35C427141BFA00FD0F06 /* Debug */,
+				BA5D35C527141BFA00FD0F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5D35C627141BFA00FD0F06 /* Build configuration list for PBXNativeTarget "MyFristApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5D35C727141BFA00FD0F06 /* Debug */,
+				BA5D35C827141BFA00FD0F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5D35C927141BFA00FD0F06 /* Build configuration list for PBXNativeTarget "MyFristAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5D35CA27141BFA00FD0F06 /* Debug */,
+				BA5D35CB27141BFA00FD0F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5D35CC27141BFA00FD0F06 /* Build configuration list for PBXNativeTarget "MyFristAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5D35CD27141BFA00FD0F06 /* Debug */,
+				BA5D35CE27141BFA00FD0F06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA5D359427141BF900FD0F06 /* Project object */;
+}
